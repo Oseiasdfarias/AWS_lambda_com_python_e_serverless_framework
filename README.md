@@ -1,5 +1,5 @@
 <p align="center">
-  <img height="90px" src="./utils/logo.webp">
+  <img height="70px" src="https://miro.medium.com/v2/resize:fit:640/format:webp/0*uoRkNnhqu3d61Zgx.png">
 </p>
 
 <p align="center">
