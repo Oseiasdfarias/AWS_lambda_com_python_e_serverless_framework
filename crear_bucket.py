@@ -14,7 +14,6 @@ try:
             "LocationConstraint": "us-east-2"
         }
     )
-
     # imprimindo a resposta retornada
     print(resposta_bucket)
 except ClientError as e:
