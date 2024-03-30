@@ -7,9 +7,7 @@
   • <a href="#techs">Tecnologias</a> 
 </p>
 
-
 ---
-
 
 <h3  id="techs">Tecnologias</h3>
 
