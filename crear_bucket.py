@@ -42,4 +42,3 @@ cliente_s3.put_object(
     Bucket=nome_backet,
     Key="planilha.xls"
 )
-
