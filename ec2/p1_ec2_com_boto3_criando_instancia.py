@@ -43,11 +43,8 @@ try:
                 }
             ]
     ))
-
 except Exception:
     print("secg_web já existe!")
     resposta_grupos = (cliente_ec2.describe_security_groups(
                        GroupNames=["secg_web"]))
     sg_id = resposta_grupos["SecurityGroups"][0]["GroupId"]
-
-
