@@ -26,7 +26,7 @@ Curso focado na compreensão e uso de funções Lambda na AWS, infraestrutura co
 
 <p id="roadmap"> 
   <ul>
-    <h3>Recursos AWS com Python e Boto3</h3>
+    <h3>Amazon S3: Recursos AWS com Python e Boto3</h3>
     <p>
     <li> ☁️ <a href="./s3/app.py">Acessando S3 com Boto3</a></li>
     <li>☁️ <a href="./s3/boto3_session_client_resource.py">Acessadno Recursos S3</a></li>
@@ -35,6 +35,14 @@ Curso focado na compreensão e uso de funções Lambda na AWS, infraestrutura co
     <li>☁️ <a href="./s3/s3_com_boto3_download_file.py">Fazendo Download de arquivos de um Bucket</a></li>
     <li>☁️ <a href="./s3/s3_com_boto3_excluir_bucket_vazio.py">Ecluindo um Bucket</a></li>
   </ul>
+</p>
+
+  <ul>
+    <h3>Amazon EC2: Recursos AWS com Python e Boto3</h3>
+    <p>
+    <li> 🤖 <a href="./ec2/p1e2_ec2_com_boto3_criando_instancia.py">Criando uma instância usando boto3</a></li>
+    <li> 🤖 <a href="./ec2/ec2_boto3_parando_iniciando_instancias.py">Parando e inicializando instância</a></li>
+    <li> 🤖 <a href="./ec2/ec2_boto3_excluindo_instancias.py">Excluindo instância</a></li>
 </p>
 
 
