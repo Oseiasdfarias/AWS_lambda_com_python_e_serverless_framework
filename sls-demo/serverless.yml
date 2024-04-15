@@ -1,0 +1,47 @@
+service: sls-demo
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+  profile: auto-curso
+  region: us-east-1
+  stage: prod
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - s3:GetObject
+            - s3:PutObject
+          Resource:
+            - arn:aws:s3:::${self:custom.bucketName}/*
+        - Effect: Allow
+          Action:
+            - s3:ListBucket
+          Resource:
+            - arn:aws:s3:::${self:custom.bucketName}/
+
+functions:
+  hello:
+    name: "${file(./config.${self:provider.stage}.json):name}"
+    handler: handler.hello
+    events:
+      - s3:
+          bucket: ${self:custom.bucketName}
+          event: s3:ObjectCreated:*
+          rules:
+            - prefix: uploads/
+            - suffix: .txt
+
+
+custom:
+  bucketName: sls-demo-files
+  serverless-s3-cleaner:
+    prompt: True
+    buckets:
+      - ${self:custom.bucketName}
+
+plugins:
+  - serverless-s3-cleaner
