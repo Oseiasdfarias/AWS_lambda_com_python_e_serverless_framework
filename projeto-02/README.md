@@ -7,6 +7,18 @@ Esse projeto usando o S3 para receber um arquivo `.csv` que despara um evento de
 </p>
 
 
+<p id="roadmap"> 
+  <ul>
+    <h3>Requisitos do projeto:</h3>
+    <p>
+    <li>⚙️ <a href="https://www.serverless.com/framework/docs/getting-started">Serverless Framework</a></li>
+    <li>⚙️ <a href="https://www.python.org">Python3</a></li>
+    <li>⚙️ <a href="https://pypi.org/project/boto3/">Boto3</a></li>
+  </ul>
+</p>
+
+
+
 ### Colocar em Produção
 
 Para colocar em produção o projeto, usa-se o comando do sercerless instalado em sua máquina, você deve esta dentro da pasta que contem o arquivo `serveraless.yml`.
