@@ -28,7 +28,7 @@ Curso focado na compreensão e uso de funções Lambda na AWS, infraestrutura co
   <ul>
     <h3>Amazon S3: Recursos AWS com Python e Boto3</h3>
     <p>
-    <li> ☁️ <a href="./s3/app.py">Acessando S3 com Boto3</a></li>
+    <li>☁️ <a href="./s3/app.py">Acessando S3 com Boto3</a></li>
     <li>☁️ <a href="./s3/boto3_session_client_resource.py">Acessadno Recursos S3</a></li>
     <li>☁️ <a href="./s3/crear_bucket.py">Criando um Bucket com Boto3</a></li>
     <li>☁️ <a href="./s3/s3_com_boto3_delete_object.py">Deletando Objetos de um Bucket</a></li>
@@ -47,8 +47,8 @@ Curso focado na compreensão e uso de funções Lambda na AWS, infraestrutura co
   <ul>
       <h3>AWS Lambda com Python e Serverless Framework</h3>
       <p>
-      <li> 🤖 <a href="./sls-demo/">Criando Função Lambda e Buckets no S3 com Serverless Framework</a></li>
-      <li> 🤖 <a href="./projeto-02/">Projeto 2: Envio de Email com Função Lambda, Amazon SES e Serverless Framework</a></li>
+      <li> ⚙️ <a href="./sls-demo/">Criando Função Lambda e Buckets no S3 com Serverless Framework</a></li>
+      <li> ⚙️ <a href="./projeto-02/">Projeto 2: Envio de Email com Função Lambda, Amazon SES e Serverless Framework</a></li>
   </ul>
 </p>
 
