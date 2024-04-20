@@ -18,7 +18,7 @@ provider:
             - arn:aws:ses:${self:provider.region}:*:identity/*
         - Effect: Allow
           Action:
-            - s3:GetObjetc
+            - s3:GetObject
           Resource:
             - arn:aws:s3:::${self:custom.bucketName}/*
         - Effect: Allow
@@ -30,6 +30,12 @@ provider:
 functions:
   envio-email:
     handler: handler.envio_email
+    events:
+      - s3:
+          bucket: ${self:custom.bucketName}
+          event: s3:ObjectCreated:Put
+          rules:
+            - suffix: .csv
 
 custom:
   bucketName: envio-email-projeto2
@@ -40,3 +46,10 @@ custom:
 
 plugins:
   - serverless-s3-cleaner
+
+package: 
+  patterns:
+    - "!node_modules/**"
+    - "!.env/**"
+    - "!.csv"
+    - "!.json"
