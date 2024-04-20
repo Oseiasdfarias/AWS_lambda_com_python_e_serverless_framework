@@ -2,6 +2,10 @@
 
 Esse projeto usando o S3 para receber um arquivo `.csv` que despara um evento de uma função Lambda, como isso, o códido da função lambda ler o arquivo `.csv` do Bucket do S3 e envia um email para todos os emails do arquivo.
 
+<p align="center">
+  <img width="80%" src="web_service.png">
+</p>
+
 
 ### Colocar em Produção
 
