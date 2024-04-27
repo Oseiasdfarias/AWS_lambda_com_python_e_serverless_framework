@@ -18,7 +18,7 @@ def envio_email(event, context):
 
     for dado in dados:
         linha = dado.decode("utf-8")
-        linha = linha.strip()
+        linha == linha.strip()
         usuario = linha.split(",")
         print(usuario)
         enviar_email(usuario[0], usuario[1])

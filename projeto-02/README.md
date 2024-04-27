@@ -18,7 +18,6 @@ Esse projeto usando o S3 para receber um arquivo `.csv` que despara um evento de
 </p>
 
 
-
 ### Colocar em Produção
 
 Para colocar em produção o projeto, usa-se o comando do sercerless instalado em sua máquina, você deve esta dentro da pasta que contem o arquivo `serveraless.yml`.
