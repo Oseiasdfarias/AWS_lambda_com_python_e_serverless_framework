@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "projeto-03"
+version = "0.1.0"
+description = ""
+authors = ["oseiasdfarias <oseias.dfarias@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.34.93"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
