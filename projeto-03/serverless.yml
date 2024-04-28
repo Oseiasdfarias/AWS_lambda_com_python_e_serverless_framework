@@ -4,7 +4,7 @@ frameworkVersion: "3"
 
 provider:
   name: aws
-  runtime: python3.9
+  runtime: python3.10
   profile: auto-curso
   region: us-east-1
   stage: prod
@@ -21,13 +21,16 @@ functions:
     handler: handler.get_cost
     events:
       - schedule: 
+          rate: rate(1 minute)
+          enabled: true
+          input: {}
+      - schedule: 
           rate: cron(0 23 * * ? *)
           enabled: true
           input: {}
 
 plugins:
   - serverless-python-requirements
-
 package:
   patterns:
     - "!.venv"

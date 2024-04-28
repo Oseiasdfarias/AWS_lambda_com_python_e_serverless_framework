@@ -5,9 +5,12 @@ id_channel = "-1002060855206"
 
 api_url = f"https://api.telegram.org/bot{bot_token}/sendMessage"
 
-reposta = rq.post(
-    api_url,
-    json={
-        "chat_id": id_channel,
-        "text": "Olá, eu sou o AWS Bot!"
-    })
+
+def enviar_mendagem_telegram(mensagem):
+    rq.post(
+        api_url,
+        json={
+            "chat_id": id_channel,
+            "text": mensagem
+        }
+    )
