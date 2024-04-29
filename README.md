@@ -53,6 +53,8 @@ Curso focado na compreensão e uso de funções Lambda na AWS, infraestrutura co
   </ul>
 </p>
 
+<br>
+
 <p align="center">
   <img widht="70%" src="./utils/UC-e9b6a86d-443f-47a8-81b9-9f4f46a20ef8.jpg">
 </p>
