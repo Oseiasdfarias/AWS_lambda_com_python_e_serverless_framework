@@ -49,7 +49,7 @@ Curso focado na compreensão e uso de funções Lambda na AWS, infraestrutura co
       <p>
       <li> ⚙️ <a href="./sls-demo/">Criando Função Lambda e Buckets no S3 com Serverless Framework</a></li>
       <li> ⚙️ <a href="./projeto-02/">Projeto 2: Envio de Email com Função Lambda, Amazon SES e Serverless Framework</a></li>
-      <li> ⚙️ <a href="./projeto-02/">Projeto 3: Função Lambda enviando informação para o Telegram</a></li>
+      <li> ⚙️ <a href="./projeto-03/">Projeto 3: Função Lambda enviando informação para o Telegram</a></li>
   </ul>
 </p>
 
